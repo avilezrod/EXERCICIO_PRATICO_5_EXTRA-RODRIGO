@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6fb;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #23527c;
+    text-align: center;
+    margin-top: 24px;
+}
+
+form {
+    background: none;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0;
+    max-width: 100%;
+    margin: 24px auto 16px auto;
+    display: flex;
+    justify-content: center;
+}
+
+form table {
+    border-collapse: separate;
+    border-spacing: 0 6px;
+}
+
+form td {
+    padding: 4px 8px;
+}
+
+form label {
+    font-weight: bold;
+    margin-right: 4px;
+    color: #23527c;
+    white-space: nowrap;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"] {
+    width: 160px;
+    padding: 6px 8px;
+    border: 1px solid #bfcfee;
+    border-radius: 3px;
+    font-size: 15px;
+    background: #eef4fd;
+    box-sizing: border-box;
+    transition: border 0.15s;
+}
+
+form input:focus {
+    border: 1.5px solid #23527c;
+    outline: none;
+    background: #e3edfc;
+}
+
+form button {
+    padding: 8px 16px;
+    background-color: #23527c;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.18s;
+    margin-left: 8px;
+}
+form button:hover {
+    background-color: #1a3e61;
+}
+
+table[border] {
+    width: 90%;
+    margin: 0 auto 24px auto;
+    background: #fff;
+    border-collapse: collapse;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+
+th, td {
+    padding: 10px 6px;
+    text-align: left;
+}
+
+th {
+    background: #23527c;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #eef4fd;
+}
+
+a {
+    color: #23527c;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 8px;
+    transition: color 0.15s;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #1a3e61;
+}
